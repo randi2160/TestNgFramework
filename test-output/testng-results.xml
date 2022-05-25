@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="13" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-24T22:04:25 EDT" name="Loan Department" finished-at="2022-05-24T22:04:26 EDT" duration-ms="470">
+    <groups>
+    </groups>
+    <test started-at="2022-05-24T22:04:25 EDT" name="Personal Loan" finished-at="2022-05-24T22:04:26 EDT" duration-ms="216">
+      <class name="test.day2">
+        <test-method signature="personal_car_loan()[pri:0, instance:test.day2@1184ab05]" started-at="2022-05-24T22:04:26 EDT" name="personal_car_loan" finished-at="2022-05-24T22:04:26 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personal_car_loan -->
+        <test-method signature="personal_home_loan()[pri:0, instance:test.day2@1184ab05]" started-at="2022-05-24T22:04:26 EDT" name="personal_home_loan" finished-at="2022-05-24T22:04:26 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personal_home_loan -->
+      </class> <!-- test.day2 -->
+      <class name="test.day3">
+        <test-method signature="ApiLoginHomeLoan()[pri:0, instance:test.day3@3aefe5e5]" started-at="2022-05-24T22:04:26 EDT" name="ApiLoginHomeLoan" finished-at="2022-05-24T22:04:26 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiLoginHomeLoan -->
+        <test-method signature="WebLoginHomeLoan()[pri:0, instance:test.day3@3aefe5e5]" started-at="2022-05-24T22:04:26 EDT" name="WebLoginHomeLoan" finished-at="2022-05-24T22:04:26 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLoan -->
+      </class> <!-- test.day3 -->
+      <class name="test.day1">
+        <test-method signature="Demo()[pri:0, instance:test.day1@2ea227af]" started-at="2022-05-24T22:04:26 EDT" name="Demo" finished-at="2022-05-24T22:04:26 EDT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2022-05-24T22:04:26 EDT" name="Car Loan" finished-at="2022-05-24T22:04:26 EDT" duration-ms="28">
+      <class name="test.day4">
+        <test-method signature="ApiLoginCarLoan()[pri:0, instance:test.day4@4f209819]" started-at="2022-05-24T22:04:26 EDT" name="ApiLoginCarLoan" finished-at="2022-05-24T22:04:26 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiLoginCarLoan -->
+        <test-method signature="WebLoginCarLoan()[pri:0, instance:test.day4@4f209819]" started-at="2022-05-24T22:04:26 EDT" name="WebLoginCarLoan" finished-at="2022-05-24T22:04:26 EDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+      </class> <!-- test.day4 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
