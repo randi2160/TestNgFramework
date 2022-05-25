@@ -2,6 +2,7 @@ package test;
 
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -21,10 +22,10 @@ public class day4 {
 		System.out.println("car loan web  login");
 		System.out.println(url);
 	}
-	@Test
-	public void ApiLoginCarLoan()
+	@Test(dataProvider="getData")
+	public void ApiLoginCarLoan(String username, String password)
 	{
-		System.out.println("car loan api login");
+		System.out.println("car loan api login"+ " " + "username" + " " + username  + " " + "password" + " " + password);
 	}
 	@Test
 	public void MobileLoginCarLoan()
@@ -37,8 +38,21 @@ public class day4 {
 	{
 		System.out.println("khem car loan web  login");
 	}
-	
-	
+	@DataProvider
+	public Object[][] getData()
+	{
+		//Row and column 
+		
+		Object[][] data = new Object[3][2];
+		data[0][0] ="firstusername";// first index or row
+		data[0][1] ="firstpassword";
+		data[1][0] ="secondusername";// first index or row
+		data[1][1] ="secondpassword";
+		data[2][0] ="thirdusername";// first index or row
+		data[2][1] ="thirdpassword";
+		
+		return data;
+	}
 	
 	@Test(dependsOnMethods= {"khemWebLoginCarLoan"})
 	public void apicarloan()
