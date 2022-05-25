@@ -1,32 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="10" total="13" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-24T23:55:59 EDT" name="Loan Department" finished-at="2022-05-24T23:55:59 EDT" duration-ms="166">
+  <suite started-at="2022-05-25T00:09:48 EDT" name="Loan Department" finished-at="2022-05-25T00:09:48 EDT" duration-ms="187">
     <groups>
+      <group name="regression">
+        <method signature="day3.ApiLoginHomeLoan()[pri:0, instance:test.day3@557caf28]" name="ApiLoginHomeLoan" class="test.day3"/>
+        <method signature="day3.MobileLoginHomeLoan()[pri:0, instance:test.day3@557caf28]" name="MobileLoginHomeLoan" class="test.day3"/>
+        <method signature="day3.WebLoginHomeLoan()[pri:0, instance:test.day3@557caf28]" name="WebLoginHomeLoan" class="test.day3"/>
+      </group> <!-- regression -->
       <group name="smoke">
-        <method signature="day1.Demo()[pri:0, instance:test.day1@4d5d943d]" name="Demo" class="test.day1"/>
-        <method signature="day2.Demo2()[pri:0, instance:test.day2@55182842]" name="Demo2" class="test.day2"/>
-        <method signature="day2.personal_home_loan()[pri:0, instance:test.day2@55182842]" name="personal_home_loan" class="test.day2"/>
+        <method signature="day1.Demo()[pri:0, instance:test.day1@2d3379b4]" name="Demo" class="test.day1"/>
+        <method signature="day2.Demo2()[pri:0, instance:test.day2@75d4a5c2]" name="Demo2" class="test.day2"/>
+        <method signature="day2.personal_home_loan()[pri:0, instance:test.day2@75d4a5c2]" name="personal_home_loan" class="test.day2"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2022-05-24T23:55:59 EDT" name="Regression" finished-at="2022-05-24T23:55:59 EDT" duration-ms="166">
+    <test started-at="2022-05-25T00:09:48 EDT" name="personal loan" finished-at="2022-05-25T00:09:48 EDT" duration-ms="187">
+      <class name="test.day4">
+        <test-method signature="MobileLoginCarLoan()[pri:0, instance:test.day4@3c46e67a]" started-at="2022-05-25T00:09:48 EDT" name="MobileLoginCarLoan" finished-at="2022-05-25T00:09:48 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+        <test-method signature="WebLoginCarLoan()[pri:0, instance:test.day4@3c46e67a]" started-at="2022-05-25T00:09:48 EDT" name="WebLoginCarLoan" finished-at="2022-05-25T00:09:48 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+        <test-method signature="khemWebLoginCarLoan()[pri:0, instance:test.day4@3c46e67a]" started-at="2022-05-25T00:09:48 EDT" name="khemWebLoginCarLoan" finished-at="2022-05-25T00:09:48 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- khemWebLoginCarLoan -->
+        <test-method signature="ApiLoginCarLoan()[pri:0, instance:test.day4@3c46e67a]" started-at="2022-05-25T00:09:48 EDT" name="ApiLoginCarLoan" finished-at="2022-05-25T00:09:48 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiLoginCarLoan -->
+        <test-method signature="apicarloan()[pri:0, instance:test.day4@3c46e67a]" started-at="2022-05-25T00:09:48 EDT" name="apicarloan" finished-at="2022-05-25T00:09:48 EDT" depends-on-methods="test.day4.khemWebLoginCarLoan" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apicarloan -->
+        <test-method is-config="true" signature="AfterSuites()[pri:0, instance:test.day4@3c46e67a]" started-at="2022-05-25T00:09:49 EDT" name="AfterSuites" finished-at="2022-05-25T00:09:49 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuites -->
+      </class> <!-- test.day4 -->
       <class name="test.day2">
-        <test-method signature="Demo2()[pri:0, instance:test.day2@55182842]" started-at="2022-05-24T23:55:59 EDT" name="Demo2" finished-at="2022-05-24T23:55:59 EDT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="BeforeSuites()[pri:0, instance:test.day2@75d4a5c2]" started-at="2022-05-25T00:09:48 EDT" name="BeforeSuites" finished-at="2022-05-25T00:09:48 EDT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuites -->
+        <test-method is-config="true" signature="suitesetup()[pri:0, instance:test.day2@75d4a5c2]" started-at="2022-05-25T00:09:48 EDT" name="suitesetup" finished-at="2022-05-25T00:09:48 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitesetup -->
+        <test-method signature="Demo()[pri:0, instance:test.day2@75d4a5c2]" started-at="2022-05-25T00:09:48 EDT" name="Demo" finished-at="2022-05-25T00:09:48 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="Demo2()[pri:0, instance:test.day2@75d4a5c2]" started-at="2022-05-25T00:09:48 EDT" name="Demo2" finished-at="2022-05-25T00:09:48 EDT" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo2 -->
-        <test-method signature="personal_home_loan()[pri:0, instance:test.day2@55182842]" started-at="2022-05-24T23:55:59 EDT" name="personal_home_loan" finished-at="2022-05-24T23:55:59 EDT" duration-ms="5" status="PASS">
+        <test-method signature="personal_car_loan()[pri:0, instance:test.day2@75d4a5c2]" started-at="2022-05-25T00:09:48 EDT" name="personal_car_loan" finished-at="2022-05-25T00:09:48 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personal_car_loan -->
+        <test-method signature="personal_home_loan()[pri:0, instance:test.day2@75d4a5c2]" started-at="2022-05-25T00:09:48 EDT" name="personal_home_loan" finished-at="2022-05-25T00:09:48 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- personal_home_loan -->
       </class> <!-- test.day2 -->
+      <class name="test.day3">
+        <test-method signature="ApiLoginHomeLoan()[pri:0, instance:test.day3@557caf28]" started-at="2022-05-25T00:09:48 EDT" name="ApiLoginHomeLoan" finished-at="2022-05-25T00:09:48 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiLoginHomeLoan -->
+        <test-method signature="Mobile1()[pri:0, instance:test.day3@557caf28]" started-at="2022-05-25T00:09:48 EDT" name="Mobile1" finished-at="2022-05-25T00:09:48 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobile1 -->
+        <test-method signature="Mobile12()[pri:0, instance:test.day3@557caf28]" started-at="2022-05-25T00:09:48 EDT" name="Mobile12" finished-at="2022-05-25T00:09:48 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobile12 -->
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:test.day3@557caf28]" started-at="2022-05-25T00:09:48 EDT" name="MobileLoginHomeLoan" finished-at="2022-05-25T00:09:48 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method signature="MobileSigninCarLoan()[pri:0, instance:test.day3@557caf28]" started-at="2022-05-25T00:09:48 EDT" name="MobileSigninCarLoan" finished-at="2022-05-25T00:09:48 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSigninCarLoan -->
+        <test-method signature="MobileSigninHomeLoan()[pri:0, instance:test.day3@557caf28]" started-at="2022-05-25T00:09:48 EDT" name="MobileSigninHomeLoan" finished-at="2022-05-25T00:09:48 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSigninHomeLoan -->
+        <test-method signature="WebLoginHomeLoan()[pri:0, instance:test.day3@557caf28]" started-at="2022-05-25T00:09:48 EDT" name="WebLoginHomeLoan" finished-at="2022-05-25T00:09:48 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLoan -->
+      </class> <!-- test.day3 -->
       <class name="test.day1">
-        <test-method signature="Demo()[pri:0, instance:test.day1@4d5d943d]" started-at="2022-05-24T23:55:59 EDT" name="Demo" finished-at="2022-05-24T23:55:59 EDT" duration-ms="28" status="PASS">
+        <test-method is-config="true" signature="BeforeMethodExecution()[pri:0, instance:test.day1@2d3379b4]" started-at="2022-05-25T00:09:48 EDT" name="BeforeMethodExecution" finished-at="2022-05-25T00:09:48 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodExecution -->
+        <test-method signature="Demo()[pri:0, instance:test.day1@2d3379b4]" started-at="2022-05-25T00:09:48 EDT" name="Demo" finished-at="2022-05-25T00:09:48 EDT" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="AfterMethondExecution()[pri:0, instance:test.day1@2d3379b4]" started-at="2022-05-25T00:09:48 EDT" name="AfterMethondExecution" finished-at="2022-05-25T00:09:48 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethondExecution -->
+        <test-method is-config="true" signature="lastexection()[pri:0, instance:test.day1@2d3379b4]" started-at="2022-05-25T00:09:48 EDT" name="lastexection" finished-at="2022-05-25T00:09:48 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexection -->
       </class> <!-- test.day1 -->
-    </test> <!-- Regression -->
+    </test> <!-- personal loan -->
   </suite> <!-- Loan Department -->
 </testng-results>

@@ -30,5 +30,19 @@ public class day4 {
 	{
 		System.out.println("car loan  mobile login");
 	}
+	
+	@Test
+	public void khemWebLoginCarLoan()
+	{
+		System.out.println("khem car loan web  login");
+	}
+	
+	
+	
+	@Test(dependsOnMethods= {"khemWebLoginCarLoan"})
+	public void apicarloan()
+	{
+		System.out.println("api car loan expect car loan web login to go first then this method will be called");
+	}
 
 }

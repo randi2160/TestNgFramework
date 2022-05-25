@@ -21,7 +21,20 @@ public class day3 {
 		System.out.println("day 3 home loan login");
 	}
 	
-	@Test
+	@Test(enabled=false)
+	public void MobileSigninHomeLoan()
+	{
+		System.out.println("day 3 MobileSigninHomeLoan should not show enabled false");
+	}
+	
+	@Test(enabled=true)
+	public void MobileSigninCarLoan()
+	{
+		System.out.println("day 3 MobileSigninCarLoan");
+	}
+	
+	//testng helper attribute of timeout
+	@Test(timeOut=4000)
 	public void Mobile1()
 	{
 		System.out.println("day 3 mobile 1");
