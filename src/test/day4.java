@@ -2,6 +2,7 @@ package test;
 
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class day4 {
@@ -13,12 +14,12 @@ public class day4 {
 		System.out.println("Run me last");
 		System.out.println("RUN ME last as part of suite");
 	}
-	
-	
+	@Parameters({"URL"})
 	@Test
-	public void WebLoginCarLoan()
+	public void WebLoginCarLoan(String url)
 	{
 		System.out.println("car loan web  login");
+		System.out.println(url);
 	}
 	@Test
 	public void ApiLoginCarLoan()
