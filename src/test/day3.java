@@ -5,17 +5,17 @@ import org.testng.annotations.Test;
 public class day3 {
 	
 	
-	@Test
+	@Test(groups="regression")
 	public void WebLoginHomeLoan()
 	{
 		System.out.println("day 3 home loan login");
 	}
-	@Test
+	@Test(groups="regression")
 	public void ApiLoginHomeLoan()
 	{
 		System.out.println("day 3 home loan login");
 	}
-	@Test
+	@Test(groups="regression")
 	public void MobileLoginHomeLoan()
 	{
 		System.out.println("day 3 home loan login");
